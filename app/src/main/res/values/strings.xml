@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">audioPlayer</string>
+
+    <string name="selfHelp">Self-help</string>
+    <string name="studyMusic">Study Music</string>
+    <string name="tech">Tech Podcasts</string>
+    <string name="filmSoundtracks">Film Soundtrack</string>
+    <string name="chiptunes">Chiptunes/Video Game Music</string>
+</resources>

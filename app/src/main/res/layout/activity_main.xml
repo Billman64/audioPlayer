@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    style="@style/Base.TextAppearance.AppCompat.Tooltip">
+
+    <TextView
+        android:id="@+id/selfHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selfHelp"
+        style="@style/category"
+        android:background="@color/selfHelp" />
+
+    <TextView
+        android:id="@+id/studyMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/studyMusic"
+        style="@style/category"
+        android:background="@color/studyMusic" />
+
+    <TextView
+        android:id="@+id/tech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tech"
+        style="@style/category"
+        android:background="@color/tech" />
+
+    <TextView
+        android:id="@+id/filmSoundtrack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/filmSoundtracks"
+        style="@style/category"
+        android:background="@color/filmSoundtrack" />
+
+    <TextView
+        android:id="@+id/videogameTunes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chiptunes"
+        style="@style/category"
+        android:background="@color/vgTunes" />
+
+</LinearLayout>

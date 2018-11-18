@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="selfHelp">#009688</color>
+    <color name="studyMusic">#00897B</color>
+    <color name="tech">#00796B</color>
+    <color name="filmSoundtrack">#00695C</color>
+    <color name="vgTunes">#004D40</color>
+
+
+
+</resources>
