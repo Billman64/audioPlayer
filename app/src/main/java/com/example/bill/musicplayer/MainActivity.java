@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+// Audio Player app demo by Bill Lugo for Udacity.
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
