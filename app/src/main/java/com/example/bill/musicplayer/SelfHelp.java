@@ -1,12 +1,9 @@
 package com.example.bill.musicplayer;
 
-import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -16,7 +13,7 @@ public class SelfHelp extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_self_help);
+        setContentView(R.layout.activity_dynamic_listing);
 
         // match actionBar color
         Log.d("audioPlayer app --", "about to set color to action bar");

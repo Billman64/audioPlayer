@@ -13,7 +13,7 @@ public class FilmSoundtrack extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_self_help);
+        setContentView(R.layout.activity_dynamic_listing);
 
         Log.d("audioPlayer app --", "about to set color to action bar");
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.filmSoundtrack)));
