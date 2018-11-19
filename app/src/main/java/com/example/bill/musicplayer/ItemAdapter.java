@@ -40,14 +40,15 @@ public class ItemAdapter extends ArrayAdapter<AudioItem> {
         TextView tvLink = (TextView) listItemView.findViewById(R.id.link);
         tvLink.setText(currentItem.getLink());
 
-        //TODO: make link clickable (implicit intent to browser)
+
         tvLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
                 Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(currentItem.getLink()) );
-//                startActivity(i); // doesn't work for some reason
+                getContext().startActivity(i); // doesn't work for some reason
             }
         });
+        //TODO: add a clickable Play icon and tie to implicit intent
 
         // return listItemView that conforms to inherited class
         return listItemView;

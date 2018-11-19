@@ -16,4 +16,8 @@
         <item name="android:background">#00796B</item>
     </style>
 
+    <style name="link">
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+    </style>
+
 </resources>
