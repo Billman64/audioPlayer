@@ -28,7 +28,7 @@ public class ItemAdapter extends ArrayAdapter<AudioItem> {
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
-        // set up individual list item
+        // set up individual list items
         final AudioItem currentItem = getItem(position);
 
         TextView tvTitle = (TextView) listItemView.findViewById(R.id.title);
@@ -41,6 +41,7 @@ public class ItemAdapter extends ArrayAdapter<AudioItem> {
         tvLink.setText(currentItem.getLink());
 
 
+        // set an onClickListener to the link textView
         tvLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){

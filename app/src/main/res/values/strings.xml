@@ -6,4 +6,5 @@
     <string name="tech">Tech Podcasts</string>
     <string name="filmSoundtracks">Film Soundtrack</string>
     <string name="chiptunes">Chiptunes/Video Game Music</string>
+    <string name="backButton">Back</string>
 </resources>
