@@ -5,12 +5,14 @@ public class AudioItem {
     String creator;
     String link;
 
+    // constructor
     AudioItem(String inputTitle, String inputCreator, String inputLink){
         title = inputTitle;
         creator = inputCreator;
         link = inputLink;
     }
 
+    // setters and getters
     public String getTitle() {
         return title;
     }
