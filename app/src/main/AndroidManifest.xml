@@ -18,7 +18,8 @@
         </activity>
         <activity
             android:name=".SelfHelp"
-            android:label="@string/selfHelp" >
+            android:label="@string/selfHelp"
+            android:parentActivityName=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -28,16 +29,24 @@
 
         <activity
             android:name=".StudyMusic"
-            android:label="@string/studyMusic" />
+            android:label="@string/studyMusic"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <activity
             android:name=".Tech"
-            android:label="@string/tech" />
+            android:label="@string/tech"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".FilmSoundtrack"
-            android:label="@string/filmSoundtracks" />
+            android:label="@string/filmSoundtracks"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".VideogameTunes"
-            android:label="@string/chiptunes" />
+            android:label="@string/chiptunes"
+            android:parentActivityName=".MainActivity"/>
 
     </application>
 

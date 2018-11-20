@@ -42,7 +42,8 @@ public class ItemAdapter extends ArrayAdapter<AudioItem> {
 
 
         // set an onClickListener to the link textView
-        tvLink.setOnClickListener(new View.OnClickListener() {
+
+        listItemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view){
                 Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(currentItem.getLink()) );

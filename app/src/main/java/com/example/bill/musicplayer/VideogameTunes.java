@@ -18,15 +18,6 @@ public class VideogameTunes extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dynamic_listing);
 
-        // implement back button
-        Button button = (Button)findViewById(R.id.backButton);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(VideogameTunes.this, MainActivity.class);
-                startActivity(i);
-            }
-        });
         // match actionBar color
         Log.d("audioPlayer app --", "about to set color to action bar");
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.vgTunes)));
@@ -52,5 +43,7 @@ public class VideogameTunes extends AppCompatActivity {
         Log.d("audioPlayer app --", "about to set adapter");
         lv.setAdapter(adapter);
     }
+
+    
 
 }
